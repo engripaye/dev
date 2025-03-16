@@ -1,7 +1,7 @@
-name: Vercel Preview Deployment
+name: Vercel Production Deployment
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID_PROD }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID_PRO }}
 on:
   workflow_dispatch
 jobs:
